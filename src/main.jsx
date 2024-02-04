@@ -22,6 +22,7 @@ import {
 import Home from './home/Home.jsx';
 import Blog from './blog/Blog.jsx';
 import Shop from './shop/Shop.jsx';
+import SinglePoduct from './shop/SinglePoduct.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop/>
+      },
+      {
+        path: "/shop/:id",
+        element: <SinglePoduct/>
       }
     ]
   },

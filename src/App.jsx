@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import './App.css'
 import NavItems from './components/NavItems'
 import Footer from './components/Footer'
+import DataFetching from './home/DataFetching'
 
 function App() {
   return (
