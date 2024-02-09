@@ -9,6 +9,7 @@ import Search from './Search';
 import ShopCategory from './ShopCategory';
 import PopularPost from './PopularPost';
 import Tags from './Tags';
+import PulutoDataFetching from './PulutoDataFetching';
 
 const Shop = () => {
     const [GridList, setGridList] = useState(true);
@@ -66,6 +67,7 @@ const Shop = () => {
                             {/* product cards */}
                             <div>
                                 <ProductCards GridList={GridList} Products={currentProducts}/>
+                                {/* <PulutoDataFetching/> */}
                             </div>
 
                             <Pagination

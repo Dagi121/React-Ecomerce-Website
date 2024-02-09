@@ -23,7 +23,7 @@ const blogList = [
         imgAlt: 'Blog Thumb',
         title: 'Financial Reporting Qouncil What Could More.',
         desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        commentCount: '4',
         btnText: 'Read More',
         metaList: [
             {
@@ -61,7 +61,7 @@ const blogList = [
         imgAlt: 'Blog Thumb',
         title: 'Strategic Social Media and of visual design.',
         desc: 'Pluoresnts customize prancing apcentered customer service anding ands asing straelg Interacvely cordinate performe',
-        commentCount: '3',
+        commentCount: '5',
         btnText: 'Read More',
         metaList: [
             {

@@ -9,6 +9,7 @@ import { Autoplay } from "swiper/modules"
 import ProductDisplay from './ProductDisplay';
 import Review from './Review';
 import PopularPost from './PopularPost';
+import Tags from './Tags';
 
 const SinglePoduct = () => {
     const [product, setProduct] = useState([]);
@@ -98,7 +99,10 @@ const SinglePoduct = () => {
 
                         {/* right side */}
                         <div className="col-lg-4 col-12">
-                            right
+                            <aside className="ps-lg-47">
+                                <PopularPost/>
+                                <Tags/>
+                            </aside>
                         </div>
                     </div>
                 </div>
